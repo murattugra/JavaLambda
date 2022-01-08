@@ -196,19 +196,15 @@ public class Lambda01 {
 	public static void maxElfunction(List<Integer> list) {
 		
 Optional<Integer> maxEl = list.stream().reduce(Math::max);// reduce coklu elemanlari bir elemana cevirir
-															
-		System.out.println(maxEl);
+	//Optional 	her yola acik Stringde alir integerde alir	hepsini											
+		System.out.println(maxEl);// max-.max eleman summ->topla .....
+		
+		// reduce() --> alzaltmak ... bir cok datayi tek bir dataya(max  min  carpma  top vs cevirmek ic in kullanilir
 	}
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	
